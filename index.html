@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Increament with JS</title>
+</head>
+<body>
+    
+    <button onclick="
+        console.log(`Number Increament: ${numberIncreament}`);">
+        Show Number
+    </button>
+
+    <button onclick="
+        numberIncreament = numberIncreament+1
+        console.log(`Number Increament: ${numberIncreament}`);">
+        Add +1 to the number
+    </button>
+
+    <button onclick="
+        numberIncreament = numberIncreament+2 
+        console.log(`Number Increament: ${numberIncreament}`);">
+        Add +2 to the number
+    </button>
+
+    <button onclick="
+        numberIncreament = numberIncreament*3 
+        console.log(`Number Increament: ${numberIncreament}`);">
+        multiply the number by 3
+    </button>
+
+    <button onclick="
+        numberIncreament = 0
+        console.log('Number Increament was reset');
+        console.log(`Number Increament: ${numberIncreament}`);">
+        Reset
+    </button>
+
+    <script>
+
+        let numberIncreament = 0;
+    </script>
+</body>
+</html>
